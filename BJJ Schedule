@@ -1,0 +1,27 @@
+<!doctype html>
+<html>
+ <body>
+  <header>
+   <h1>BRAZILIAN JIU-JITSU</h1>
+  </header>
+  <main>
+   Schedule:
+   <p>
+   Monday - Friday: 9:00 AM - 6:00 PM
+   </p>
+   <p>
+   Saturday: 10:00 AM - 6:00 PM
+   </p>
+   <p>
+    Sunday: Closed
+   </p>
+  </main>
+  <footer>
+   Jiu Jitsu, it's for everyone.
+   <p>
+   134 Leonard Dr, SmithVille USA
+   (345) 555-5522
+   </p>
+  </footer>
+ </body>
+</html>
