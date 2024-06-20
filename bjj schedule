@@ -5,7 +5,12 @@
    <h1>BRAZILIAN JIU-JITSU</h1>
   </header>
   <main>
-   Schedule:
+  <section>
+   Instructors:
+   Josh, Kody, William
+  </section>
+  <section>
+     Schedule:
    <p>
    Monday - Friday: 9:00 AM - 6:00 PM
    </p>
@@ -15,13 +20,14 @@
    <p>
     Sunday: Closed
    </p>
+  </section>
   </main>
   <footer>
    Jiu Jitsu, it's for everyone.
-   <p>
+   <p><address>
    134 Leonard Dr, SmithVille USA
    (345) 555-5522
-   </p>
+   </p></address>
   </footer>
  </body>
 </html>
