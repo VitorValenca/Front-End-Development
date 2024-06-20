@@ -1,0 +1,9 @@
+<!doctype html>
+<html>
+  <h1>Welcome to My Home Page</h1>
+  <body>
+    <p>This is how I will be displaying the skills and tools I have learned so far</p>
+    <button type="button">Upvote</button>
+    <button type="button">Downvote</button>
+  </body>
+</html>
