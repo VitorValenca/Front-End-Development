@@ -1,0 +1,17 @@
+<!doctype html>
+<html>
+ <body>
+  <header>
+   <h1>Sarah's Tennis Club</h1>
+  <nav>
+   <a href="/members.html">Members</a>
+   <a href="/reserve.html">Reserve a Court</a>
+  </nav>
+  </header>
+  <main>
+    Sign Up to Play<br>
+    New to town? Sign up to participate in the league.<br>
+    Email: <input> <button>Sign Up</button>
+   </main>
+ </body>
+</html>
