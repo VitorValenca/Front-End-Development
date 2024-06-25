@@ -1,0 +1,18 @@
+<!doctype html>
+<html>
+ <h3>Submit Your Charitable Donation</h3>
+ <body>
+  <form>
+   <label for="name">Name:</label>
+   <input id="name" type="text">
+   <br>
+   <label for="phone">Phone:</label>
+   <input id="phone" type="tel">
+   <br> 
+   <label for="donation">Donation Amount: </label> 
+   <input id="donation" type="number">
+   <br>
+   <button>Donate</button>
+  </form>
+ </body>
+</html>
