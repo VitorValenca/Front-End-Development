@@ -1,0 +1,53 @@
+<!doctype html>
+<html>
+  <head>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <h2>Contact Us</h2>
+    <p>Give your details below and we'll get back to you in 24-48 hours</p>
+    <form>
+      <label for="name">Name: </label>
+      <input id="name" type="text"> <br>
+      <label for="email">Email: </label>
+      <input id="email" type="email"> <br>
+      <button>Submit</button>
+  </body>
+</html>
+
+
+# style.css reference #
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+
+body {
+ background-color: whitesmoke;
+ text-align: center;
+ font-family: 'Poppins', sans-serif;
+ display: grid;
+}
+
+form {
+ width: 80%;
+ margin: auto;
+}
+
+h2 {
+ padding: 10px;
+}
+
+input {
+ padding: 10px;
+ margin: 10px;
+ font-family: Quicksand;
+}
+
+label {
+ margin: 10px;
+}
+
+button {
+ padding: 10px;
+ background-color: green;
+ border: none;
+ color: white;
+}
