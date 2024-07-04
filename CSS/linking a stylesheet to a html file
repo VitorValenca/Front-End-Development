@@ -1,0 +1,35 @@
+#index.html file
+<!doctype html>
+<html>
+ <head>
+  <link rel="stylesheet" href="style.css">
+ </head>
+ <body>
+  <h1 class="title">UV Protection Chart</h1>
+  <p class=" extreme">Extreme: wear sunscreen, sunglasses, a hat and
+   look for shade.</p>
+  <p class="medium">Medium: wear sunscreen, sunglasses, and a hat.
+  </p>
+  <p class="low">Low: wear sunscreen and sunglasses.</p>
+ </body>
+</html>
+
+#style.css
+body{
+  font-weight: bold;
+}
+.title {
+ background-color: orange;
+}
+
+.extreme {
+ background-color: red;
+}
+
+.medium {
+ background-color: orange;
+}
+
+.low {
+ background-color: gold;
+}
