@@ -1,0 +1,14 @@
+<!doctype html>
+<html>
+ <head>
+  <style>
+   body {
+    background-color: lightBlue;
+   }
+  </style>
+ </head>
+ <body>
+  <h1 style="color:white;">The Social Book</h1>
+  <p>Sign up with us</p>
+ </body>
+</html>
