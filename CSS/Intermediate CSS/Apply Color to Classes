@@ -1,0 +1,23 @@
+<!doctype html>
+<html>
+  <head>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <p class="blue">This text is blue.</p>
+    <p class="purple">This text is purple.</p>
+    <p class="red">This text is red.</p>
+  </body>
+</html>
+
+.blue {
+  color: blue;
+}
+
+.purple {
+  color: purple;
+}
+
+.red {
+  color: red;
+}
