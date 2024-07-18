@@ -1,0 +1,24 @@
+<!doctype html>
+<html>
+  <head>
+    <title>About Me</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <h2>About Me!</h2>
+    <p class="subheader">Currently studying Art History</p>
+    <p class="about">I am a third year university student studying Art History.
+      I am particularly interested in Renaissance-era art. I will be completing
+      an internship with the Smithsonian institute this summer.</p>
+  </body>
+</html>
+
+.subheader {
+  font-size: 20px;
+  font-family: sans-serif;
+}
+
+.about {
+  font-size: 12px;
+  font-family: sans-serif;
+}
