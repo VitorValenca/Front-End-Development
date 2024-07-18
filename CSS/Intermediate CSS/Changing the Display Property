@@ -1,0 +1,25 @@
+<!doctype html>
+<html>
+  <head>
+    <link href="style.css" rel="stylesheet" type="text/css"/>
+  </head>
+  <body>
+   <a>News Feed</a>
+   <a>Profile</a>
+   <a>Account Settings</a>
+  </body>
+</html>
+
+body {
+  background-color: #3E416D;
+}
+
+#changed display property from "inline" to "inline block" to allow the properties height, width, and padding to apply.
+a {
+  display: inline-block;
+  width: max-content;
+  height: 25px;
+  padding: 10px 5px 5px 5px;
+  background-color: #62D76B;
+  border-radius: 10px;
+}
