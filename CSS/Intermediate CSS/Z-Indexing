@@ -1,0 +1,19 @@
+<!doctype html>
+<html>
+ <head>
+  <link rel="stylesheet" href="style.css">
+ </head>
+ <body>
+  <div>
+   <img src="https://mimo.app/i/shoes.png">
+   <h1>$49.99</h1>
+  </div>
+ </body>
+</html>
+
+#Elements have a default z-index of 0. Therefore, we set the img to -1, so that it positions behind the header
+img {
+ width: 300px;
+ position: absolute;
+ z-index: -1;
+}
