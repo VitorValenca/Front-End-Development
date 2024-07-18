@@ -1,0 +1,26 @@
+<!doctype html>
+<html>
+  <head>
+    <link href="style.css" rel="stylesheet" type="text/css"/>
+  </head>
+  <body>
+   <div>
+   <img id="img-one" src="https://mimo.app/i/coffee.png"/>
+   <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse neque nisl, posuere a quam et, sodales molestie tellus. In hac habitasse platea dictumst. Aenean sollicitudin egestas facilisis. In hac habitasse platea dictumst. Phasellus tristique quam ac aliquam tempus. Duis volutpat maximus urna. Vestibulum nec sodales dui. Praesent vulputate fermentum nulla, at pretium magna placerat et.</p>
+   </div>
+  </body>
+</html>
+
+#Applied the 'clear' property to the paragraph selector and set it equal to the float value. This keeps the image from wrapping.
+div {
+  max-width: 500px;
+}
+
+img {
+  width: 70%;
+  float: right;
+}
+
+p {
+  clear: right;
+}
