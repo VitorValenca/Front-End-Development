@@ -1,0 +1,15 @@
+<!doctype html>
+<html>
+  <head>
+    <link href="style.css" rel="stylesheet" type="text/css"/>
+  </head>
+  <body>
+    <a>Home</a>
+    <a>About</a>
+    <a>Contact</a>
+  </body>
+</html>
+
+a {
+  display: block;
+}
