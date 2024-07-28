@@ -1,0 +1,32 @@
+<!doctype html>
+<html>
+  <head>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="item"></div>
+      <div class="item" id="item-2"></div>
+      <div class="item"></div>
+      <div class="item"></div>
+    </div>
+  </body>
+</html>
+
+#Set the "item" class to "flex-grow: 1" and "item-2" class to "flex-grow: 4" so that item-2 is 4 times larger.
+.container {
+  background-color: #3E416D;
+  display: flex;
+}
+
+.item {
+  height: 50px;
+  width: 50px;
+  background-color: #62D76B;
+  margin: 5px;
+  flex-grow: 1;
+}
+
+#item-2 {
+  flex-grow: 4;
+}
