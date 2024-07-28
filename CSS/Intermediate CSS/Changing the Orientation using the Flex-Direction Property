@@ -1,0 +1,36 @@
+<!doctype html>
+<html>
+  <head>
+    <title>Registration</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <h2>Registration Steps:</h2>
+    <div id="container">
+      <div id="step1">Step 1: Download Paperwork</div>
+      <div id="step2">Step 2: Complete Forms</div>
+      <div id="step3">Step 3: <br>Return Forms to Main Office</div>
+    </div>
+  </body>
+</html>
+
+body {
+  font-family: sans-serif;
+  padding: 20px;
+}
+
+#Default value of "flex-direction" is row; changed to column to display vertically
+#step1,
+#step2,
+#step3 {
+  border: 1px solid black;
+  height: auto;
+  width: 200px;
+  text-align: center;
+  padding-top: 5px;
+}
+
+#container {
+  display: flex;
+  flex-direction: column;
+}
