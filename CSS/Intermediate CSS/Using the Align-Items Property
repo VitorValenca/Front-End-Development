@@ -1,0 +1,30 @@
+<!doctype html>
+<html>
+  <head>
+    <title>Shapes</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <div id="shapes">
+      <div class="blue square"></div>
+    </div>
+  </body>
+</html>
+
+#Set the "align-items: flex-end" to display the square at the bottom as this property places elements at the end of their cross-axis (in this case the horizontal axis)
+.blue {
+  background-color: blue;
+}
+
+.square {
+  width: 150px;
+  height: 150px;
+}
+
+#shapes {
+  border: 1px dotted blue;
+  height: 300px;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+}
