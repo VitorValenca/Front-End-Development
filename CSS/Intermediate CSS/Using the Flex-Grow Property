@@ -1,0 +1,28 @@
+<!doctype html>
+<html>
+  <head>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="item"></div>
+      <div class="item"></div>
+      <div class="item"></div>
+      <div class="item"></div>
+    </div>
+  </body>
+</html>
+
+#Set the "flex-grow: 1" so that all flex items will grow equally to fill the content's space.
+.container {
+  background-color: #3E416D;
+  display: flex;
+}
+
+.item {
+  height: 50px;
+  width: 50px;
+  background-color: #62D76B;
+  margin: 5px;
+  flex-grow: 1;
+}
