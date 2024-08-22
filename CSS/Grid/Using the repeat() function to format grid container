@@ -1,0 +1,31 @@
+#index.html
+<!doctype html>
+<html>
+  <head>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+  </head>
+  <body>
+    <div class="grid-container">
+      <a>About Us</a>
+      <a>Locations</a>
+      <a>FAQ</a>
+      <a>Contact Us</a>
+    </div>
+  </body>
+</html>
+
+#style.css
+body {
+  background-color: #3E416D;
+}
+
+a {
+  text-align: center;
+  background-color: #62D76B;
+  border: 5px solid indigo;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+}
