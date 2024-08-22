@@ -1,0 +1,37 @@
+#index.html
+<!doctype html>
+<html>
+  <head>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+  </head>
+  <body>
+    <div class="profile">
+      <div class="name">
+        <h2>John</h2>
+      </div>
+      <div class="image">
+        <img src="https://mimo.app/i/elijah.png">
+      </div>
+    </div>
+  </body>
+</html>
+
+#style.css
+body {
+  background-color: #3E416D;
+}
+
+img {
+  height: 250px;
+  width: auto;
+}
+
+.profile {
+  text-align: center;
+  background-color: indigo;
+  color: white;
+  width: 300px;
+  border-radius: 7px;
+  display: grid;
+  grid-template: auto / 50%;
+}
